@@ -1,0 +1,12 @@
+annual_salary = int(input("Enter the annual salary: "))
+portion_saved = int(input("Enter the portion saved: "))
+total_cost = int(input("Enter the cost of your dream house:  "))
+portion_down_payment = total_cost*(25/100)
+print ("Down payment of your house is " + str(portion_down_payment))
+salary_per_month =  (annual_salary/12)
+print ("Your montly salary is: " + str(salary_per_month))
+saving_per_month = salary_per_month*(10/100)
+print ("Your saving per month is: " + str(saving_per_month))
+months = (portion_down_payment/saving_per_month)
+print ("Number of months it'll take: " + str(months))
+
